@@ -1,0 +1,10 @@
+canvas{
+    animation-name:glow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glow{
+    from{box-shadow:2px 2px 50px yellowgreen}
+    to{box-shadow:2px 2px 50px pink}
+}
